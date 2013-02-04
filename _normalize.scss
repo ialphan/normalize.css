@@ -24,6 +24,9 @@ audio,canvas,video{
   display: inline;
   zoom: 1;
 }
+canvas{
+  -ms-touch-action: double-tap-zoom;
+}
 
 audio:not([controls]){
   height: 0;
