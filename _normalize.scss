@@ -3,10 +3,10 @@ html{
 	box-sizing: border-box;
 	font-size: 100%;
 	text-decoration: none;
-	text-size-adjust: 100%;
 	user-select: none;
 	-webkit-font-smoothing: antialiased;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-text-size-adjust: 100%;
 }
 
 *, *:before, *:after{
@@ -72,15 +72,15 @@ input{
 	&[disabled]{
 		cursor: default;
 	}
-	&[type=button], [type=reset], input[type=submit]{
+	&[type="button"], [type="reset"], input[type="submit"]{
 		appearance: button;
 		cursor: pointer;
 		overflow: visible;
 	}
-	&[type=checkbox], &[type=radio]{
+	&[type="checkbox"], &[type="radio"]{
 		box-sizing: border-box;
 	}
-	&[type=search]{
+	&[type="search"]{
 		appearance: textfield;
 		box-sizing: content-box;
 		&::-webkit-search-decoration, &::-webkit-search-cancel-button{
@@ -121,6 +121,7 @@ textarea{
 	overflow: auto;
 	vertical-align: middle;
 }
+
 
 
 
